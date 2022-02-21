@@ -1,0 +1,25 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div>
+            <h1>Metric/Imperial unit conversion</h1> 
+            
+           <label>Unit Converter</label>
+            <input id="num-el" type="number" placeholder="enter amount" oninput="unitCon(this.value)" onchange="unitCon(this.value)"> </input>
+              <!-- <h2 id="num-el"></h2> -->>
+        </div>
+        <div id="results">
+            <p id="center-unit">Length (Meter/Feet):</p>
+                <p id= "len-el"></p>
+                
+            <p id="center-unit">Volume (Liters/Gallons)</p>
+                <p id="vol-el"></p>
+                
+            <p id="center-unit">Mass (Kilograms/Pounds)</p>
+                <p id="mass-el"></p>
+        </div>     
+        <script src="index.js"></script>        
+    </body>
+</html>
